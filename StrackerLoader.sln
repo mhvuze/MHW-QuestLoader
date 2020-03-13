@@ -18,19 +18,55 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllLoader", "DllLoader\DllL
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MHWLoader", "MHWLoader\loader.vcxproj", "{47D7380A-7CA7-4FB5-A415-12E1FB99FF97}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VuziTendi", "Plugins\VuziTendi\VuziTendi.vcxproj", "{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F142A341-5EE0-442D-A15F-98AE9B48DBAE}.Debug|x64.ActiveCfg = Debug|x64
+		{F142A341-5EE0-442D-A15F-98AE9B48DBAE}.Debug|x64.Build.0 = Debug|x64
+		{F142A341-5EE0-442D-A15F-98AE9B48DBAE}.Debug|x86.ActiveCfg = Debug|Win32
+		{F142A341-5EE0-442D-A15F-98AE9B48DBAE}.Debug|x86.Build.0 = Debug|Win32
 		{F142A341-5EE0-442D-A15F-98AE9B48DBAE}.Release|x64.ActiveCfg = Release|x64
 		{F142A341-5EE0-442D-A15F-98AE9B48DBAE}.Release|x64.Build.0 = Release|x64
+		{F142A341-5EE0-442D-A15F-98AE9B48DBAE}.Release|x86.ActiveCfg = Release|Win32
+		{F142A341-5EE0-442D-A15F-98AE9B48DBAE}.Release|x86.Build.0 = Release|Win32
+		{14CE06F4-9407-4AC1-8046-FEA91B2F384F}.Debug|x64.ActiveCfg = Debug|x64
+		{14CE06F4-9407-4AC1-8046-FEA91B2F384F}.Debug|x64.Build.0 = Debug|x64
+		{14CE06F4-9407-4AC1-8046-FEA91B2F384F}.Debug|x86.ActiveCfg = Debug|Win32
+		{14CE06F4-9407-4AC1-8046-FEA91B2F384F}.Debug|x86.Build.0 = Debug|Win32
 		{14CE06F4-9407-4AC1-8046-FEA91B2F384F}.Release|x64.ActiveCfg = Release|x64
 		{14CE06F4-9407-4AC1-8046-FEA91B2F384F}.Release|x64.Build.0 = Release|x64
+		{14CE06F4-9407-4AC1-8046-FEA91B2F384F}.Release|x86.ActiveCfg = Release|Win32
+		{14CE06F4-9407-4AC1-8046-FEA91B2F384F}.Release|x86.Build.0 = Release|Win32
+		{0E3B003F-F4E5-4DEA-9D17-B0B3260B0432}.Debug|x64.ActiveCfg = Debug|x64
+		{0E3B003F-F4E5-4DEA-9D17-B0B3260B0432}.Debug|x64.Build.0 = Debug|x64
+		{0E3B003F-F4E5-4DEA-9D17-B0B3260B0432}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E3B003F-F4E5-4DEA-9D17-B0B3260B0432}.Debug|x86.Build.0 = Debug|Win32
 		{0E3B003F-F4E5-4DEA-9D17-B0B3260B0432}.Release|x64.ActiveCfg = Release|x64
 		{0E3B003F-F4E5-4DEA-9D17-B0B3260B0432}.Release|x64.Build.0 = Release|x64
+		{0E3B003F-F4E5-4DEA-9D17-B0B3260B0432}.Release|x86.ActiveCfg = Release|Win32
+		{0E3B003F-F4E5-4DEA-9D17-B0B3260B0432}.Release|x86.Build.0 = Release|Win32
+		{47D7380A-7CA7-4FB5-A415-12E1FB99FF97}.Debug|x64.ActiveCfg = Release|x64
+		{47D7380A-7CA7-4FB5-A415-12E1FB99FF97}.Debug|x64.Build.0 = Release|x64
+		{47D7380A-7CA7-4FB5-A415-12E1FB99FF97}.Debug|x86.ActiveCfg = Release|x64
+		{47D7380A-7CA7-4FB5-A415-12E1FB99FF97}.Debug|x86.Build.0 = Release|x64
 		{47D7380A-7CA7-4FB5-A415-12E1FB99FF97}.Release|x64.ActiveCfg = Release|x64
 		{47D7380A-7CA7-4FB5-A415-12E1FB99FF97}.Release|x64.Build.0 = Release|x64
+		{47D7380A-7CA7-4FB5-A415-12E1FB99FF97}.Release|x86.ActiveCfg = Release|x64
+		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}.Debug|x64.ActiveCfg = Debug|x64
+		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}.Debug|x64.Build.0 = Debug|x64
+		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}.Debug|x86.Build.0 = Debug|Win32
+		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}.Release|x64.ActiveCfg = Release|x64
+		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}.Release|x64.Build.0 = Release|x64
+		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}.Release|x86.ActiveCfg = Release|Win32
+		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +74,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F142A341-5EE0-442D-A15F-98AE9B48DBAE} = {D26C22BC-B754-412D-8DF3-9802E1377C41}
 		{14CE06F4-9407-4AC1-8046-FEA91B2F384F} = {12C6CB3B-8095-4EF0-BD7D-EF433D5EB95D}
+		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336} = {12C6CB3B-8095-4EF0-BD7D-EF433D5EB95D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE0159EE-22D5-460B-893C-8F074349F7EB}
