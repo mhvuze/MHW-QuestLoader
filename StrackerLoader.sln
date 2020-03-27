@@ -20,6 +20,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MHWLoader", "MHWLoader\load
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VuziTendi", "Plugins\VuziTendi\VuziTendi.vcxproj", "{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryModule", "external\MemoryModule\MemoryModule.vcxproj", "{0CFEC38B-1F44-41DC-9203-3973A8E14B2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -67,6 +69,8 @@ Global
 		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}.Release|x64.Build.0 = Release|x64
 		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}.Release|x86.ActiveCfg = Release|Win32
 		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336}.Release|x86.Build.0 = Release|Win32
+		{0CFEC38B-1F44-41DC-9203-3973A8E14B2A}.Release|x64.ActiveCfg = Release|x64
+		{0CFEC38B-1F44-41DC-9203-3973A8E14B2A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +79,7 @@ Global
 		{F142A341-5EE0-442D-A15F-98AE9B48DBAE} = {D26C22BC-B754-412D-8DF3-9802E1377C41}
 		{14CE06F4-9407-4AC1-8046-FEA91B2F384F} = {12C6CB3B-8095-4EF0-BD7D-EF433D5EB95D}
 		{8F600E05-08C5-4B83-BC01-C7B9BF7B8336} = {12C6CB3B-8095-4EF0-BD7D-EF433D5EB95D}
+		{0CFEC38B-1F44-41DC-9203-3973A8E14B2A} = {D26C22BC-B754-412D-8DF3-9802E1377C41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE0159EE-22D5-460B-893C-8F074349F7EB}
