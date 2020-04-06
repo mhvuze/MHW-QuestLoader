@@ -25,7 +25,6 @@ CreateHook(MH::Monster::SoftenTimers::AddWoundTimer, AddPartTimer, void*, void* 
 
 void onLoad()
 {
-	LOG(INFO) << GameVersion;
 	if (std::string(GameVersion) == "???") {
 		LOG(ERR) << "VuziTendi: Targeting wrong game version.";
 		return;
